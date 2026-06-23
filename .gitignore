@@ -1,0 +1,19 @@
+# --- FRONTEND (Next.js) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# --- BACKEND (Python/FastAPI) ---
+backend/__pycache__/
+backend/venv/
+backend/.venv/
+*.pyc
+
+# --- SECRETS & DATABASE ---
+.env
+*.env
+backend/.env
+frontend/.env.local
+*.db
+backend/aetherium.db
